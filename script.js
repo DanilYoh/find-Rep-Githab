@@ -48,7 +48,7 @@ class View {
     this.repoList.append(info);
 
     info.addEventListener('click', function (e) {
-     if(e.target.classList == 'btn-delete') info.remove()
+     if(e.target.classList == 'btnDelete') info.remove()
     })
     this.searchInput.value = '';
     this.repoContainer.innerHTML = '';
